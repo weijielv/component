@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle_share"
+        android:background="#dddddd"
+        android:layout_width="match_parent"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tv_cancle"
+        android:layout_height="60dp"
+        android:text="取消"
+        android:gravity="center"
+        android:background="#dddddd"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>
